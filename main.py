@@ -4,13 +4,15 @@ from aiogram import Bot, Dispatcher  # Bot для работы с телегра
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
 
-TOKEN = 'Ваш токен бота'
-WEATHER_API_KEY = 'Ваш токен погоды'
+TOKEN = '7017604403:AAGJP0_CL2Fz9Yu8B0sqrrxZjwCH-W4YrRQ'
+WEATHER_API_KEY = 'bda4f18c30aa281201fc4ccfa0b9f77c'
 WEATHER_CITY = 'Cherepovets'
 WEATHER_URL = f'http://api.openweathermap.org/data/2.5/weather?q={WEATHER_CITY}&appid={WEATHER_API_KEY}&units=metric&lang=ru'
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
+
+
 
 async def fetch_weather():
     async with aiohttp.ClientSession() as session:
