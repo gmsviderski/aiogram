@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/bot.py" dialect="GenericSQL" />
+=======
+>>>>>>> 8e775099c4ac2123f8122aaeb078dbc90cb97e6c
     <file url="file://$PROJECT_DIR$/dz_TG03.py" dialect="GenericSQL" />
   </component>
 </project>
