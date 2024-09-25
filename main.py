@@ -3,9 +3,8 @@ import aiohttp
 from aiogram import Bot, Dispatcher  # Bot для работы с телеграмАПИ Dicpether обработка исходящих сообщений и команд
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
+from config import TOKEN, WEATHER_API_KEY
 
-TOKEN = '7017604403:AAGJP0_CL2Fz9Yu8B0sqrrxZjwCH-W4YrRQ'
-WEATHER_API_KEY = 'bda4f18c30aa281201fc4ccfa0b9f77c'
 WEATHER_CITY = 'Cherepovets'
 WEATHER_URL = f'http://api.openweathermap.org/data/2.5/weather?q={WEATHER_CITY}&appid={WEATHER_API_KEY}&units=metric&lang=ru'
 

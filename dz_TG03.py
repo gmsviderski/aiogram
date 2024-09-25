@@ -6,8 +6,8 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 import sqlite3
 import logging
+from config import TOKEN
 
-TOKEN = '7017604403:AAGJP0_CL2Fz9Yu8B0sqrrxZjwCH-W4YrRQ'
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()

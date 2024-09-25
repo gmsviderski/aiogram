@@ -5,8 +5,9 @@ from aiogram.filters import Command
 from aiogram.types import Message, FSInputFile
 from gtts import gTTS
 from googletrans import Translator
+from config import TOKEN
 
-TOKEN = '7017604403:AAGJP0_CL2Fz9Yu8B0sqrrxZjwCH-W4YrRQ'
+
 DIRECTORY_NAME = "img"
 
 bot = Bot(token=TOKEN)
